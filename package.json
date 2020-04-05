@@ -16,7 +16,10 @@
   "license": "ISC",
   "dependencies": {
     "@types/peerjs": "^1.1.0",
-    "peerjs": "^1.2.0"
+    "bufferutil": "^4.0.1",
+    "peer": "^0.5.2",
+    "peerjs": "^1.2.0",
+    "utf-8-validate": "^5.0.2"
   },
   "devDependencies": {
     "ts-loader": "^6.2.2",
