@@ -1,0 +1,27 @@
+{
+  "name": "peerjs-server-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": "12.6.0"
+  },
+  "scripts": {
+    "start": "node ./dist/server.js",
+    "webpack": "webpack --watch --mode development",
+    "build": "webpack --mode production",
+    "postinstall": "npm run build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/peerjs": "^1.1.0",
+    "peerjs": "^1.2.0"
+  },
+  "devDependencies": {
+    "ts-loader": "^6.2.2",
+    "typescript": "^3.8.3",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
+  }
+}
